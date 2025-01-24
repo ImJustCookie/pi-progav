@@ -36,8 +36,8 @@ public class Monde {
     public String toString(){
         String temp;
         temp = this.nom+ " :";
-        for (int i=0; i<this.entityList.length; i++){
-            temp += this.entityList[i].toString()+ ", ";
+        for (Entite entite : this.entityList) {
+            temp += entite.toString() + ", ";
         }
 
         return temp;

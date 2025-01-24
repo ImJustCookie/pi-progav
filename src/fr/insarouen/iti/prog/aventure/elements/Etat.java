@@ -1,6 +1,6 @@
 package fr.insarouen.iti.prog.aventure.elements;
 
-enum Etat {
+public enum Etat {
     FERME,
     OUVERT,
     CASSE,

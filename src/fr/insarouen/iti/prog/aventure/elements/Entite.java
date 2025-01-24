@@ -4,7 +4,7 @@ import fr.insarouen.iti.prog.aventure.Monde;
 
 public class Entite {
     final private String nom;
-    private Monde monde;
+    private final Monde monde;
 
 
     public Entite(String nom,Monde monde){
@@ -38,5 +38,6 @@ public class Entite {
         return (temp.nom == this.nom && temp.monde == this.monde); 
     }
     
+
 
 }

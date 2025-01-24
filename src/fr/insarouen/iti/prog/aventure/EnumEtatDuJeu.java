@@ -1,6 +1,6 @@
 package fr.insarouen.iti.prog.aventure;
 
-enum EnumEtatDuJeu{
+public enum EnumEtatDuJeu{
     ECHEC,
     ENCOURS,
     SUCCES
