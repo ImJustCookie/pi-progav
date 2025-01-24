@@ -1,6 +1,7 @@
 package fr.insarouen.iti.prog.aventure.elements.objets;
 
 import fr.insarouen.iti.prog.aventure.Monde;
+import fr.insarouen.iti.prog.aventure.elements.objets.serrurerie.Serrure;
 
 public class Coffre extends Objet{
     private Objet[] listObjet;
@@ -8,5 +9,7 @@ public class Coffre extends Objet{
 
     public Coffre(String nom, Monde monde){
         super(nom, monde);
+        this.serrure = new Serrure(this.getMonde());
     }
+
 } 
