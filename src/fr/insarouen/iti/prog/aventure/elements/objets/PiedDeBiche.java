@@ -4,12 +4,12 @@ import fr.insarouen.iti.prog.aventure.Monde;
 
 public class PiedDeBiche extends Objet {
     
-    public PiedDeBiche(Monde monde, String nom){
+    public PiedDeBiche(String nom, Monde monde){
         super(nom, monde);
     }
     
     @Override
     public boolean estDeplacable(){
-        return false;
+        return true;
     }
 }
